@@ -4,7 +4,76 @@
 @import 'libs';  
 @import 'global';
 
+ 
+ 
+.header{ 
+    background-image: url('../images/header/header-bg.jpg'); 
+    background-repeat: no-repeat;  
+    background-size: cover;
+    background-position: center; 
+    &__top{ 
+        padding: 70px 0; 
+        display: flex; 
+        align-items: center; 
+        justify-content:space-between; 
+        margin-bottom: 80px;
+    }    
+     
+    &__top__menu-social-wrapper{ 
+        display: flex; 
+        align-items: center; 
+    }
 
+    &__top-social{ 
+        display: flex; 
+        margin-left: 73px;
+    } 
+     
+    &__top-social-item{ 
+        width: 50px; 
+        height: 50px; 
+        border-radius: 50%; 
+        border: 3px solid $white; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center;  
+    } 
+     
+    &__top-social-item +  .header__top-social-item{ 
+        margin-left: 29px;
+    }
+     
+    .menu{ 
+       &__list{ 
+        display: flex; 
+        align-items: center;
+       }   
+
+       &__item + .menu__item{ 
+          margin-left: 27px;
+       } 
+        
+       &__link { 
+        @extend %-montserrat-400; 
+        color: $white; 
+        text-transform: uppercase; 
+        font-size: 17px; 
+       // text-shadow: 9px 4px 2px rgba(0,0,0,0.64);  
+        padding: 0 1px 7px 1px; 
+        border-bottom: 3px solid transparent;
+        transition: all .3s; 
+        &:hover{ 
+            border-bottom: 3px solid #FFF;
+         } 
+
+       }
+    } 
+     
+    &__main{ 
+        margin: 0 auto; 
+        text-align: center;
+    }
+}
 
 
 @import 'media'; 
