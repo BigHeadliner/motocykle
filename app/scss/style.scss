@@ -10,7 +10,8 @@
     background-image: url('../images/header/header-bg.jpg'); 
     background-repeat: no-repeat;  
     background-size: cover;
-    background-position: center; 
+    background-position: center;  
+    margin-bottom: 50px;
     &__top{ 
         padding: 70px 0; 
         display: flex; 
@@ -88,6 +89,93 @@
         top: 145px;
         left: 170px;
     }
+}  
+ 
+.tour{   
+    background: #ededed;  
+    background: linear-gradient(0deg, rgba(237,237,237,1) 50%, rgba(255,255,255,1) 69%, rgba(255,255,255,1) 76%);
+    padding-bottom: 215px;
+    &__items{ 
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+    } 
+
+   &__item{ 
+     max-width: 364px; 
+     border: 1px solid transparent;
+   }  
+
+   &__item-img-wrapper{ 
+    position: relative; 
+    border: 1px solid transparent; 
+    margin-bottom: 50px;
+   }  
+
+   &__item-triangle{  
+    width: 0; 
+    height: 0;
+    border: 92px solid $main-red;  
+    position: relative;
+    border-right-color: transparent; 
+    border-top-color: transparent;  
+    position: absolute;
+    bottom: -23px;
+    left: -25px;
+   } 
+    
+   &__item-price{   
+     @extend %-bebas-400; 
+     font-size: 57px;    
+     color: $white;
+     position: absolute; 
+     top: -5px;
+     right: -37px;
+   }   
+
+   &__item-price-span{ 
+     font-size: 36px;
+   } 
+    
+   &__item-specification{ 
+      width: 100px; 
+      font-size: 22px;  
+      color: $white;
+      @extend  %-bebas-neue-700;
+      position: absolute;
+      top: 36px;
+      left: -42px;
+   }   
+    
+   &__item-title{ 
+     @extend  %-bebas-neue-700;  
+     font-size: 27px;  
+     margin-bottom: 25px;
+     color: $night;
+   }  
+    
+   &__item-text{ 
+    line-height: 27px; 
+    margin-bottom: 37px;
+   } 
+    
+   &__item-btn{ 
+    width: 115px; 
+    height: 37px; 
+    border-radius: 18px;  
+    @extend %-bebas-neue-700; 
+    font-size: 21px;
+    background: $main-red;  
+    color: $white;
+    padding: 12px 20px 12px 25px; 
+    border: 3px solid transparent; 
+    transition: all .3s; 
+    &:hover{ 
+       background: $white; 
+       border: 3px solid $main-red;  
+       color:  $main-red;
+    }
+   }
 }
 
 
