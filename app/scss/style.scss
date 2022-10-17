@@ -71,7 +71,22 @@
      
     &__main{ 
         margin: 0 auto; 
-        text-align: center;
+        text-align: center; 
+        position: relative;
+    }   
+
+    &__main-title{ 
+      font-size: 115px; 
+      line-height: 97px; 
+      @extend %-billy-ohio-400;  
+      color: $white; 
+      margin-bottom: 539px;
+    } 
+     
+    &__main-motocykle{ 
+        position: absolute;
+        top: 145px;
+        left: 170px;
     }
 }
 

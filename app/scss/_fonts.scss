@@ -87,3 +87,13 @@
     font-display: swap;
 }   
  
+@font-face {
+    font-family: 'Big Noodle Titling'; 
+    font-weight: 400;
+    font-style: normal;
+    src: local('Big Noodle Titling'),
+        url('../fonts/BigNoodleTitling.woff2') format('font-woff2'),
+        url('../fonts/BigNoodleTitling.woff') format('font-woff');
+    font-display: swap;
+}   
+ 
