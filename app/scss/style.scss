@@ -93,7 +93,7 @@
  
 .tour{   
     background: #ededed;  
-    background: linear-gradient(0deg, rgba(237,237,237,1) 50%, rgba(255,255,255,1) 69%, rgba(255,255,255,1) 76%);
+    background: linear-gradient(0deg, rgba(237,237,237,1) 47%, rgba(255,255,255,1) 73%);
     padding-bottom: 215px;
     &__items{ 
         display: flex; 
@@ -176,6 +176,150 @@
        color:  $main-red;
     }
    }
+} 
+ 
+.convince{  
+  background-color:#ededed;  
+  margin-bottom: 115px;
+  &__wrapper{ 
+    position: relative;  
+    display: flex;
+  }  
+
+  &__reasons{ 
+    background-color: $main-red;  
+    padding: 70px 10px 0; 
+    color: $white;   
+    width: 100%;
+    max-width: 610px; 
+    position: absolute;
+    top: -38px;
+    left: -7px;
+  } 
+   
+  &__title{ 
+   @extend  %-bebas-neue-700; 
+   font-size: 69px;
+   margin-bottom: 45px;
+  } 
+   
+  &__subtitle{ 
+     @extend  %-bebas-neue-700;  
+     font-size: 26px; 
+     margin-bottom: 25px;
+  } 
+   
+  &__text{ 
+    max-width: 405px; 
+    color: #e37689; 
+    margin-bottom: 63px; 
+    display: inline-block;
+  } 
+   
+  &__riders{ 
+    color: $white;  
+    width: 100%;
+    max-width: 637px; 
+    padding: 70px 0 0 210px; 
+    margin-left: auto;
+  } 
+   
+  &__rider, 
+  &__rider-mod{ 
+    padding-left: 150px;  
+    max-width: 410px;
+    border: 1px solid transparent; 
+    position: relative; 
+    margin-bottom: 79px;
+  }  
+   
+  &__rider-mod{  
+    padding: 0 150px 0 0;
+  }
+   
+  &__rider-name, 
+  &__rider-name-mod{ 
+    @extend %-bebas-neue-700; 
+    font-size: 47px; 
+    color: #5e5e5e; 
+    margin-bottom: 20px; 
+    position:relative;
+  } 
+   
+  &__rider-position{ 
+    @extend  %-bebas-400;   
+    font-weight: 400; 
+    color: #979797;
+    font-size: 25px; 
+    position: absolute;
+    top: 3px;
+    right: 5px;
+  }  
+   
+  &__rider-position-mod{ 
+    @extend  %-bebas-400;   
+    font-weight: 400; 
+    color: #979797;
+    font-size: 25px; 
+    position: absolute;
+    top: 3px;
+    right: -19px;
+  } 
+   
+  &__rider-text{
+    @extend %-lato-500; 
+    color: #808080; 
+    max-width: 253px; 
+    &::before{ 
+      content: ''; 
+      width: 130px; 
+      height: 130px;   
+      background-image: url('../images/convince/rider1.png'); 
+      background-size: cover;   
+      background-repeat: no-repeat;
+      background-position:center;
+      border-radius: 50%;
+      border: 1px solid transparent; 
+      position: absolute;
+      top: -17px;
+      left: 3px;
+    }
+  }  
+   
+  &__rider-text--third{ 
+    &::before{ 
+      background-image: url('../images/convince/rider3.png'); 
+     }
+    }
+  
+   
+  &__rider-text-mod{  
+    @extend %-lato-500; 
+    color: #808080; 
+    max-width: 253px; 
+    &::before{ 
+      content: ''; 
+      width: 130px; 
+      height: 130px;   
+      background-image: url('../images/convince/rider2.png'); 
+      background-size: cover;   
+      background-repeat: no-repeat;
+      background-position:center;
+      border-radius: 50%;
+      border: 1px solid transparent; 
+      position: absolute;
+      top: -17px;
+      right: 0;
+    } 
+
+  } 
+   
+  &__motocykle{ 
+    position: absolute;
+    top: -80px;
+    left: 445px; 
+  }
+ 
 }
 
 

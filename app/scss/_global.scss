@@ -3,7 +3,8 @@
 body{  
     min-height: 100vh;  
     @extend %-lato-500;
-    color: $main-text-color; 
+    color: $main-text-color;  
+    background-color: #ededed;
     font-style: normal; 
     font-size: 18px; 
     line-height: 26px;
@@ -25,5 +26,5 @@ body{
     margin: 0 auto; 
     padding: 0 10px; 
     border: 1px solid green; 
-    // border: 1px solid transparent;
+    border: 1px solid transparent;
  }
