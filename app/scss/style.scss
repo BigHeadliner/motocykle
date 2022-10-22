@@ -204,7 +204,7 @@
     border: 3px solid transparent; 
     transition: all .3s; 
     &:hover{ 
-       background: $white; 
+       background: transparent; 
        border: 3px solid $main-red;  
        color:  $main-red;
     }
@@ -588,7 +588,122 @@
     line-height: 27px;
   }
  }
+  
+  
+ .contact{ 
+  
+   &__inner{ 
+    padding-top: 125px;    
+    position: relative;
+   } 
 
+   &__items{ 
+    display: flex; 
+    justify-content: space-between;  
+    border: 1px solid transparent;    
+    
+   }   
+    
+   &__inner{ 
+    position:relative;
+   } 
+
+   &__items{  
+     max-width: 1030px; 
+     margin: 0 auto 65px;
+   }
+
+   &__item{ 
+     border: 1px solid transparent;   
+     width: 100%; 
+     max-width: 307px; 
+     padding-left: 87px; 
+     position: relative; 
+   } 
+     
+   &__item--email::before{ 
+     content: ''; 
+     width: 57px; 
+     height: 45px; 
+     border: 1px solid transparent;   
+     background-image: url('../images/contact/email.png'); 
+     background-repeat: no-repeat; 
+     background-size: cover; 
+     background-position: center; 
+     position: absolute; 
+     top: 10px;
+     left: 10px;
+   }  
+    
+    &__item--phone::before{ 
+    content: ''; 
+    width: 37px; 
+    height: 55px; 
+    border: 1px solid transparent;   
+    background-image: url('../images/contact/phone.png'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    position: absolute; 
+    top: 10px;
+    left: 27px;
+  }  
+   
+  &__item--address::before{ 
+    content: ''; 
+    width: 53px; 
+    height: 55px; 
+    border: 1px solid transparent;   
+    background-image: url('../images/contact/address.png'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    position: absolute; 
+    top: 10px;
+    left: 18px;
+  } 
+
+   &__item-title{ 
+     @extend %-bebas-neue-700; 
+     font-size: 26px; 
+     color: $night;  
+     margin-bottom: 19px;
+    }  
+     
+    &__item-email, 
+    &__item-phone, 
+    &__item-address{ 
+      @extend  %-lato-500; 
+      font-size: 17px; 
+      color: $night;   
+      margin-bottom: 10px;
+    } 
+     
+    &__social-items{ 
+      width: 100%; 
+      max-width: 677px; 
+      display: flex; 
+      justify-content: space-between;  
+      margin: 0 auto 77px;
+    }
+  
+    &__social-item{ 
+      width: 67px; 
+      height: 67px; 
+      border-radius: 50%; 
+      border: 3px solid #f0d839; 
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+    }  
+ 
+   &__location{ 
+    position: absolute;
+    top: -133px;
+    left: 563px;
+   } 
+
+ }
 
 @import 'media'; 
  
