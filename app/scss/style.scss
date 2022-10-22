@@ -703,7 +703,22 @@
     left: 563px;
    } 
 
- }
+ }  
+  
+  .footer{  
+    text-align: center; 
+    background-color: $main-red; 
+     
+    &__item-first{ 
+      margin: 65px 0 20px;  
+      color: $white; 
+    } 
+     
+    &__item{ 
+      margin-bottom: 65px;
+      color: $white; 
+    }
+  }
 
 @import 'media'; 
  
