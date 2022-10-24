@@ -42,8 +42,14 @@
 
    .convince__motocykle{ 
     display: none;
-   }
-   
+   } 
+    
+  //-- worldwide --// 
+
+   .worldwide__img{ 
+    position: initial;
+   } 
+
  }
    
     
@@ -122,7 +128,12 @@
   
  @media(max-width:1075px){    
      
-    //--  convince --//      
+    //--  convince --//       
+     
+    .convince {
+      background-color: #ededed;
+      margin-bottom: 45px;
+  }
 
    .convince__wrapper{ 
     flex-wrap: wrap;
@@ -147,7 +158,35 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  } 
+   
+  //-- worldwide --//  
+
+  .worldwide__main{ 
+    flex-wrap: wrap;
+  } 
+   
+  .worldwide__card{ 
+    margin: 25px;
+  } 
+   
+  .worldwide__img{ 
+    margin: 25px;
   }
+
+ } 
+  
+ @media(max-width:1073px){   
+
+    //-- worldwide --//   
+
+   .worldwide__main { 
+    justify-content: center;
+   } 
+    
+   .worldwide__subtitle {
+    margin: 0 auto 50px;
+   }
 
  }
   
@@ -165,25 +204,31 @@
  
 
   
- @media(max-width: 800px){ 
-     
-  //--  header --//     
-   
-  .header .menu__list{ 
-    position: absolute;
-    top: 99px;
-    left: 0;
-    right: 0; 
-  }
+ @media(max-width: 800px) {
 
-   
-  //-- tour -- // 
-   
-.tour__item {
-  margin: 31px; 
- }    
+   //--  header --//     
 
-} 
+   .header .menu__list {
+     position: absolute;
+     top: 99px;
+     left: 0;
+     right: 0;
+   }
+
+
+   //-- tour -- // 
+
+   .tour__item {
+     margin: 31px;
+   }
+
+   //-- convince -- // 
+
+   .convince {
+     margin-bottom: 18px;
+   }
+
+ }
  
 @media(max-width:773px){ 
      
@@ -202,6 +247,13 @@
   .header__main-title {
     font-size: 87px;
   }
+     
+   //-- worldwide --//      
+
+  .worldwide__card {
+    padding: 55px 57px 0;
+  } 
+
 } 
  
  
@@ -213,8 +265,50 @@
   .header__main-title {
     font-size: 77px; 
     line-height: 83px;
+  } 
+    
+  //--  worldwide --//    
+
+  .worldwide__subtitle {
+    margin: 0 auto 35px;
+  } 
+   
+  .worldwide__card {
+    padding: 39px 47px 0;
+  } 
+   
+  .worldwide__card-item {
+    margin-bottom: 39px;
+    border: 1px solid transparent;
+    max-width: 270px;
+ } 
+  
+ .worldwide__card-name::before {
+    position: absolute;
+    top: -9px;
+    left: 0px;
+ }
+   
+  
+  .worldwide__card-text { 
+    margin-bottom: 45px;
+   } 
+     
+}  
+ 
+@media(max-width:550px){  
+  
+  //-- worldwide --//      
+   
+  .worldwide__title {
+    line-height: 67px;
   }
-} 
+
+  .worldwide__card, 
+  .worldwide__img{ 
+    margin: 25px 5px;
+   }
+}
  
 @media(max-width:500px){ 
 
@@ -276,7 +370,7 @@
   .convince__rider-text::before {
     position: absolute;
     top: -7px;
-    left: -12px;
+    left: -12px; 
 } 
   
 .convince__rider-text-mod::before{ 
@@ -305,7 +399,37 @@
     position: absolute;
     top: 37px;
     left: 1px;
+ }  
+   
+  //-- worldwide -- //
+
+ .worldwide__card-item {
+  margin-bottom: 30px; 
  } 
+  
+ .worldwide__card {
+  padding: 39px 30px 0;
+ }
+
+} 
+ 
+@media(max-width:370px) {
+
+  //-- worldwide -- //
+
+  .worldwide__card {
+    padding: 39px 18px 0;
+  }
+
+  .worldwide__card-name::before {
+    position: absolute;
+    top: -9px;
+    left: -5px;
+  }
+
+  .worldwide__card-text {
+    margin-bottom: 30px;
+  }
 
 }
 
