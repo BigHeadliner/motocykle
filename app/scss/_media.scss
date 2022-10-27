@@ -305,7 +305,14 @@
    
   .moredetail__details-text--rightside {
     margin: 0 0 48px 123px;
-  }
+  } 
+     
+   //-- tour --//     
+
+  .tour__title {
+    margin: 107px auto 37px;
+  } 
+
 
  }
  
@@ -478,7 +485,35 @@
     margin: 25px 5px;
    }
 }
+  
  
+@media(max-width:503px){ 
+    
+  //--  header --//    
+
+ .header__top-logo-img{ 
+   max-width: 135px;
+ }
+  
+ .header__top-social{ 
+   display: none;
+ }
+
+ .header__main-title {
+   font-size: 50px;
+   line-height: 57px;
+ }   
+
+  //--  convince --//     
+
+ .convince__reasons {
+   background-color: #cd0a2d;
+   padding: 40px 10px 0; 
+ }
+ 
+}  
+ 
+
 @media(max-width:500px){ 
 
    //--  header --//   
@@ -496,36 +531,23 @@
 
  .tour__item {
   margin: 25px 0;
+ } 
+   
+  //--  blog --//    
+
+ .tour__title {
+  margin: 107px auto 47px; 
+  font-size: 65px;
+  } 
+  
+ .tour__text {
+  margin: 0 auto 37px;
  }
 
 } 
  
  
-@media(max-width:503px){ 
-    
-   //--  header --//    
 
-  .header__top-logo-img{ 
-    max-width: 135px;
-  }
-   
-  .header__top-social{ 
-    display: none;
-  }
-
-  .header__main-title {
-    font-size: 50px;
-    line-height: 57px;
-  }   
-
-   //--  convince --//     
-
-  .convince__reasons {
-    background-color: #cd0a2d;
-    padding: 40px 10px 0; 
-  }
-  
-} 
    
  
 @media(max-width: 430px){   
