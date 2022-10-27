@@ -48,7 +48,17 @@
 
    .worldwide__img{ 
     position: initial;
-   } 
+   }    
+    
+    
+   //-- moredetail --//  
+    
+   .moredetail__img {
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin: 0 auto; 
+}
 
  }
    
@@ -64,11 +74,31 @@
       .header__main-motocykle {
         position: initial;
         margin: 0 auto;
-      }
-  
+      } 
+
+    //--  moredetail --//     
+
+    .moredetail__detail-bigt {
+      font-size: 70px;  
+    }
+       
+   .moredetail__detail-bigt--rightside {
+      font-size: 83px; 
+      margin-bottom: 35px;
+     }  
+      
+     .moredetail__detail-bigsub {
+      font-size: 43px;
     }
 
+
+    }
+  
+     
+     
    
+    
+
  @media(max-width:1180px){ 
      
     //--  header --// 
@@ -188,7 +218,40 @@
     margin: 0 auto 50px;
    }
 
- }
+ } 
+  
+ @media(max-width:1030px){     
+   
+  //-- moredetail --//    
+
+  .moredetail__details-text {
+    margin: 0 130px 99px 0;
+   } 
+    
+   .moredetail__details-text--rightside {
+      margin: 0 0 99px 147px;
+    }
+ } 
+
+  
+ @media(max-width: 1143px){    
+
+   //-- moredetail --//    
+   
+  .moredetail__leftside-wrapper, 
+  .moredetail__rightside-wrapper{ 
+     flex-wrap: wrap; 
+     justify-content: center; 
+     align-items: center;
+  } 
+   
+  .moredetail__detail{ 
+     margin: 25px 15px;
+  }
+
+ } 
+
+
   
   @media(max-width:1015px){ 
      
@@ -197,11 +260,64 @@
    .header__top {
      padding: 30px 0;  
      margin-bottom: 50px;
-   } 
+   }  
+    
+    //--  moredetail --//   
+ 
+  .moredetail__details-text, 
+  .moredetail__details-text--rightside {
+     color: #fff;
+     text-align: center;
+     margin-bottom: 50px;
+    }
 
  }  
   
+  
+  
+ @media(max-width: 953px) { 
  
+  //--  moredetail --//      
+   
+  .moredetail__title {
+    line-height: 70px;
+}
+   
+  .moredetail__detail-title,  
+  .moredetail__detail-bigt,  
+  .moredetail__detail-bigt--rightside {
+    font-size: 50px; 
+  } 
+   
+  .moredetail__detail-bigt--rightside{ 
+    margin-bottom: 29px;
+  }
+ 
+  .moredetail__leftside-wrapper { 
+    margin: 0 147px 80px 0; 
+    padding: 0;
+  } 
+   
+  .moredetail__rightside-wrapper { 
+    margin: 0 0 70px 127px; 
+    padding: 0;
+  } 
+   
+  .moredetail__details-text--rightside {
+    margin: 0 0 48px 123px;
+  }
+
+ }
+ 
+ @media(max-width: 805px) { 
+ 
+   //-- moredetail -- //  
+
+   .moredetail__details-text--rightside {
+     margin: 0 0 47px 133px;
+   }  
+
+ } 
 
   
  @media(max-width: 800px) {
@@ -227,9 +343,10 @@
    .convince {
      margin-bottom: 18px;
    }
-
+   
  }
- 
+  
+
 @media(max-width:773px){ 
      
   //--  header --//       
@@ -237,8 +354,60 @@
   .header__main-title {
     font-size: 99px;  
   }
-
+ 
 } 
+  
+ 
+@media(max-width:730px){  
+    
+  //--  moredetail --//     
+
+  .moredetail__title { 
+    font-size: 59px;
+  } 
+    
+  .moredetail__text {
+    margin: 0 auto 50px; 
+  }
+
+  .moredetail__img{ 
+    display: none;
+  } 
+   
+  .moredetail__main{ 
+    flex-wrap: wrap;
+  }  
+   
+  .moredetail__leftside-wrapper, 
+  .moredetail__rightside-wrapper{ 
+   
+    margin: 0 auto 50px;
+  } 
+   
+  
+  .moredetail__detail{ 
+    margin: 25px;
+  }
+
+  .moredetail__leftside{ 
+    max-width: 100%; 
+    padding: 50px 15px 0;
+  }   
+   
+  .moredetail__rightside{ 
+    max-width: 100%; 
+    padding: 50px 15px 0;
+  }  
+
+  
+
+   
+  .moredetail__details-text,  
+  .moredetail__details-text--rightside{
+    margin: 0 auto 50px;
+  }
+
+}
  
 @media(max-width:675px){ 
      
@@ -409,13 +578,30 @@
   
  .worldwide__card {
   padding: 39px 30px 0;
- }
+ }  
+
+ //-- moredetail -- //  
+
+ .moredetail__leftside-wrapper,  
+ .moredetail__rightside-wrapper {
+  margin: 0 auto 40px;
+}
 
 } 
  
-@media(max-width:370px) {
+@media(max-width:370px) { 
+     
+   //-- convince -- //  
 
-  //-- worldwide -- //
+  .convince__rider, .convince__rider-mod{ 
+    margin-bottom: 70px;
+  }
+
+  //-- worldwide -- // 
+   
+  .worldwide__title {
+    margin: 0px 0px 36px;
+}
 
   .worldwide__card {
     padding: 39px 18px 0;
@@ -429,6 +615,12 @@
 
   .worldwide__card-text {
     margin-bottom: 30px;
+  } 
+    
+  //-- moredetail -- //  
+
+  .moredetail__title {
+    font-size: 49px;
   }
 
 }
