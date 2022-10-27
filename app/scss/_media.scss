@@ -1,5 +1,26 @@
   
-   
+    
+  @media(max-width:1235px) {    
+ 
+     //-- contact --//      
+
+    .contact__location { 
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+    } 
+     
+    .contact__item{ 
+      border: 1px solid transparent;
+    }
+      
+    .contact__social-items{ 
+      border: 1px solid transparent;
+    }
+
+  }
+
   @media(max-width:1207px) {  
      
      //-- tour --//     
@@ -251,6 +272,16 @@
 
  } 
 
+ @media(max-width:1017px){  
+   
+    //-- contact --//     
+
+  .contact__location {
+    position: absolute;
+    top: -105px;
+   } 
+
+ }
 
   
   @media(max-width:1015px){ 
@@ -318,9 +349,30 @@
   .tour__title {
     margin: 107px auto 37px;
   } 
+  
+  //-- contact --//    
 
+  .contact__inner {
+    padding-top: 107px; 
+  } 
 
- }
+ } 
+  
+ @media(max-width: 900px) {   
+   
+  //-- contact --//    
+
+   .contact__items{ 
+     flex-wrap: wrap; 
+     justify-content: center;
+   }  
+    
+   .contact__item{ 
+     margin: 15px;
+   }
+
+ } 
+
  
  @media(max-width: 805px) { 
  
@@ -428,6 +480,30 @@
     margin: 0 auto 50px;
   }
 
+} 
+ 
+@media(max-width:697px){  
+   
+    //--  contact  --//
+
+  .contact__item--email::before {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+  }   
+   
+  .contact__item--phone::before {
+    position: absolute;
+    top: 10px;
+    left: 7px;
+  } 
+   
+  .contact__item--address::before {
+    position: absolute;
+    top: 10px;
+    left: -4px;
+  } 
+
 }
  
 @media(max-width:675px){ 
@@ -484,7 +560,17 @@
     margin-bottom: 45px;
    } 
      
-}  
+}   
+ 
+@media(max-width:555px){    
+   
+  //-- contact --//   
+
+  .contact__location {
+    display: none;
+  } 
+
+}
  
 @media(max-width:550px){  
   
@@ -509,7 +595,14 @@
    
   .jurney__subtitle {
     margin: 0 auto 100px;
-  }
+  } 
+    
+   //-- contact --//     
+
+  .contact__inner {
+    padding-top: 75px;
+ }
+
 }
   
  
@@ -634,6 +727,20 @@
  .moredetail__rightside-wrapper {
   margin: 0 auto 40px;
 }
+  
+//-- contact -- //   
+
+.contact__inner {
+  padding-top: 67px;
+}  
+ 
+.contact__items {
+  margin: 0 auto 50px;
+} 
+ 
+.contact__social-items {
+  margin: 0 auto 50px;
+}
 
 } 
  
@@ -669,9 +776,20 @@
 
   .moredetail__title {
     font-size: 49px;
-  }
-
-}
+  }  
+   
+  //-- contact -- //  
+   
+  .contact__items {
+    margin: 0 auto 40px;
+  } 
+   
+  .contact__social-item {
+    width: 53px;
+    height: 53px; 
+  } 
+   
+ }
 
 @media(max-width:333px){   
    
