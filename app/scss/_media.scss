@@ -369,9 +369,20 @@
     
    .contact__item{ 
      margin: 15px;
-   }
+   } 
+     
+   //-- footer --//    
 
- } 
+   .footer__item-first {
+    margin: 40px 0 15px;
+   
+   } 
+    
+   .footer__item {
+    margin-bottom: 40px;
+  }   
+
+}
 
  
  @media(max-width: 805px) { 
@@ -661,7 +672,18 @@
   
  .tour__text {
   margin: 0 auto 37px;
- }
+ } 
+  
+ //-- footer --//    
+
+ .footer__item-first {
+  margin: 35px 0 10px;
+ 
+ } 
+  
+ .footer__item {
+  margin-bottom: 30px;
+ }   
 
 } 
  

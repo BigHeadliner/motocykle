@@ -16,5 +16,21 @@ $(function () {
             hamburger.classList.remove('menu__btn--open')
         })
     })  
+ 
+    $(document).ready(function(){
+        $(".menu a ").on("click", function (event) {
+          //відміняєм стандартне опрацювання натиску ссилки
+          event.preventDefault();
+           
+          //забираєм ідентифікатор блоку з атрибута href 
+          var id  = $(this).attr('href'),
+      
+          //дізнаємся висоту від початку сторінки до блоку на який ссилається якір
+            top = $(id).offset().top;
+          
+          //анімуєм перехід на відстань - top за 1500 мс
+          $('body,html').animate({scrollTop: top}, 1500);
+        });
+      }); 
 
 });
