@@ -222,7 +222,7 @@
   } 
    
   .worldwide__img{ 
-    margin: 25px;
+    margin: 25px 25px 0 25px; 
   }
 
  } 
@@ -594,6 +594,10 @@
   .worldwide__card, 
   .worldwide__img{ 
     margin: 25px 5px;
+   }   
+    
+   .worldwide__img{ 
+    margin-bottom: 0px;
    } 
      
    //-- jurney --//     
