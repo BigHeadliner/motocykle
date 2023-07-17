@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Montserrat-Regular';
+    font-family: 'Montserrat-Regular', sans-serif; 
     font-weight: 400;
     font-style: normal;
     src: local('Montserrat-Regular'),
@@ -10,7 +10,7 @@
     
 
 @font-face {
-    font-family: 'Billy-Ohio';
+    font-family: 'Billy-Ohio', sans-serif; 
     font-style: normal;
     src: local('Billy-Ohio'),
         url('../fonts/Billy-Ohio.woff2') format('font-woff2'),
@@ -19,7 +19,7 @@
 }
     
 @font-face {
-    font-family: 'Bebas-Regular';
+    font-family: 'Bebas-Regular', sans-serif; 
     font-weight: 400;
     font-style: normal;
     src: local('Bebas-Regular'),
@@ -29,7 +29,7 @@
 }   
  
 @font-face {
-    font-family: 'BebasNeue-Book';
+    font-family: 'BebasNeue-Book', sans-serif; 
     font-style: normal;
     src: local('BebasNeue-Book'),
         url('../fonts/BebasNeue-Book.woff2') format('font-woff2'),
@@ -38,7 +38,7 @@
 }   
  
 @font-face {
-    font-family: 'HelveticaLTStd-BoldCond'; 
+    font-family: 'HelveticaLTStd-BoldCond', sans-serif; 
     font-weight: 700;
     font-style: normal;
     src: local('HelveticaLTStd-BoldCond'),
@@ -48,7 +48,7 @@
 }  
  
 @font-face {
-    font-family: 'Lato-Medium'; 
+    font-family: 'Lato-Medium', sans-serif;  
     font-weight: 500;
     font-style: normal;
     src: local('Lato-Medium'),
@@ -58,7 +58,7 @@
 }   
  
 @font-face {
-    font-family: 'BebasNeue-Bold'; 
+    font-family: 'BebasNeue-Bold', sans-serif; 
     font-weight: 700;
     font-style: normal;
     src: local('BebasNeue-Bold'),
@@ -68,7 +68,7 @@
 }  
  
 @font-face {
-    font-family: 'Lato-MediumItalic'; 
+    font-family: 'Lato-MediumItalic', sans-serif; 
     font-weight: 500;
     font-style: normal;
     src: local('Lato-MediumItalic'),
@@ -78,7 +78,7 @@
 }    
  
 @font-face {
-    font-family: 'Lato-Regular'; 
+    font-family: 'Lato-Regular', sans-serif; 
     font-weight: 400;
     font-style: normal;
     src: local('Lato-Regular'),
@@ -88,10 +88,10 @@
 }   
  
 @font-face {
-    font-family: 'Big-Noodle-Titling'; 
+    font-family: 'BigNoodleTitling', sans-serif;
     font-weight: 400;
     font-style: normal;
-    src: local('Big-Noodle-Titling'),
+    src: local('BigNoodleTitling'),
         url('../fonts/BigNoodleTitling.woff2') format('font-woff2'),
         url('../fonts/BigNoodleTitling.woff') format('font-woff');
     font-display: swap;

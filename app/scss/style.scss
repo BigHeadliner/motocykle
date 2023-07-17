@@ -148,7 +148,7 @@
      
     &__title{ 
       @extend %-bebas-neue-700; 
-      font-size: 69px; 
+      font-size: 69px;  
       color: $night; 
       text-align: center; 
       margin: 147px auto 37px;
@@ -286,7 +286,8 @@
   &__title{ 
    @extend  %-bebas-neue-700; 
    font-size: 69px;
-   margin-bottom: 45px;
+   margin-bottom: 23px; 
+   line-height: 70px;
   } 
    
   &__subtitle{ 
@@ -329,7 +330,7 @@
     @extend %-bebas-neue-700; 
     font-size: 47px; 
     color: #5e5e5e; 
-    margin-bottom: 20px; 
+    margin-bottom: 34px; 
     position:relative;
   } 
    
@@ -337,20 +338,20 @@
     @extend  %-bebas-400;   
     font-weight: 400; 
     color: #979797;
-    font-size: 25px; 
+    font-size: 23px; 
     position: absolute;
-    top: 3px;
-    right: 5px;
+    top: 35px;
+    right: 130px;
   }  
    
   &__rider-position-mod{ 
     @extend  %-bebas-400;   
     font-weight: 400; 
     color: #979797;
-    font-size: 25px; 
+    font-size: 23px; 
     position: absolute;
-    top: 3px;
-    right: -19px;
+    top: 33px;
+    right: 50px;
   } 
    
   &__rider-text{
@@ -415,7 +416,7 @@
       @extend %-bebas-neue-700; 
       text-align: center; 
       font-size: 69px; 
-      margin: 30px 0 36px;
+      margin: 95px 0 36px 30px;
    } 
 
    &__title-span{ 
@@ -554,7 +555,8 @@
    }
       
    &__detail { 
-    text-align: center;
+    text-align: center; 
+    margin-left: 15px;
    }
 
    &__detail-title, 
@@ -567,8 +569,9 @@
    }   
     
    &__detail-bigt{  
-    font-size: 87px; 
-    margin-bottom: 15px;
+     font-size: 87px;
+     margin-bottom: 14px;
+     line-height: 43px;
    } 
     
    &__detail-bigt--rightside{  
